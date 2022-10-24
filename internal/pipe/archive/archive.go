@@ -250,7 +250,12 @@ func skip(ctx *context.Context, archive config.Archive, binaries []*artifact.Art
 		finalName := name + artifact.ExtraOr(*binary, artifact.ExtraExt, "")
 		log.WithField("binary", binary.Name).
 			WithField("name", finalName).
-			Info("skip archiving")
+			Info("naming binary")
+
+		if err = os.Link(binary.Path, finalName); err != nil {
+			return err
+		}
+
 		ctx.Artifacts.Add(&artifact.Artifact{
 			Type:    artifact.UploadableBinary,
 			Name:    finalName,
