@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 

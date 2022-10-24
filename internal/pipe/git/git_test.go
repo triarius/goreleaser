@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 
@@ -152,7 +152,7 @@ func TestShallowClone(t *testing.T) {
 			"git", "clone",
 			"--depth", "1",
 			"--branch", "v0.160.0",
-			"https://github.com/goreleaser/goreleaser",
+			"https://github.com/triarius/goreleaser",
 			folder,
 		).Run(),
 	)

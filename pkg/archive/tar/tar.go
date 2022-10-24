@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/config"
 )
 
 // Archive as tar.

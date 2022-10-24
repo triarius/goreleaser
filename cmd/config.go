@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/config"
 )
 
 func loadConfig(path string) (config.Project, error) {

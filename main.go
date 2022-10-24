@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/goreleaser/goreleaser/cmd"
+	"github.com/triarius/goreleaser/cmd"
 	"github.com/muesli/termenv"
 )
 

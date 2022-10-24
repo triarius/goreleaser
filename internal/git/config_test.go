@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/internal/git"
+	"github.com/triarius/goreleaser/internal/testlib"
 	"github.com/stretchr/testify/require"
 )
 
@@ -35,7 +35,7 @@ func TestRepoNameWithDifferentRemote(t *testing.T) {
 	ctx := context.Background()
 	testlib.Mktmp(t)
 	testlib.GitInit(t)
-	testlib.GitRemoteAddWithName(t, "upstream", "https://github.com/goreleaser/goreleaser.git")
+	testlib.GitRemoteAddWithName(t, "upstream", "https://github.com/triarius/goreleaser.git")
 	_, err := git.Run(ctx, "pull", "upstream", "main")
 	require.NoError(t, err)
 	_, err = git.Run(ctx, "branch", "--set-upstream-to", "upstream/main")
@@ -50,8 +50,8 @@ func TestExtractRepoFromURL(t *testing.T) {
 	for _, url := range []string{
 		"git@github.com:goreleaser/goreleaser.git",
 		"git@custom:goreleaser/goreleaser.git",
-		"https://foo@github.com/goreleaser/goreleaser",
-		"https://github.com/goreleaser/goreleaser.git",
+		"https://foo@github.com/triarius/goreleaser",
+		"https://github.com/triarius/goreleaser.git",
 		"https://something.with.port:8080/goreleaser/goreleaser.git",
 		"https://github.enterprise.com/goreleaser/goreleaser.git",
 		"https://gitlab-ci-token:SOME_TOKEN@gitlab.yourcompany.com/goreleaser/goreleaser.git",

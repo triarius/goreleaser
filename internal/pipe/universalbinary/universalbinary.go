@@ -10,15 +10,15 @@ import (
 
 	"github.com/caarlos0/go-shellwords"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/shell"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/ids"
+	"github.com/triarius/goreleaser/internal/pipe"
+	"github.com/triarius/goreleaser/internal/semerrgroup"
+	"github.com/triarius/goreleaser/internal/shell"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/build"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Pipe for macos universal binaries.

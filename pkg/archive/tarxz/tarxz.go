@@ -5,8 +5,8 @@ package tarxz
 import (
 	"io"
 
-	"github.com/goreleaser/goreleaser/pkg/archive/tar"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/archive/tar"
+	"github.com/triarius/goreleaser/pkg/config"
 	"github.com/ulikunitz/xz"
 )
 

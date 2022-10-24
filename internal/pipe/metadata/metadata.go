@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Pipe implementation.

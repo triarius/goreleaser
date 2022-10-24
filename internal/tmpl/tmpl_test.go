@@ -7,9 +7,9 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 
@@ -18,7 +18,7 @@ func TestWithArtifact(t *testing.T) {
 	ctx := context.New(config.Project{
 		ProjectName: "proj",
 	})
-	ctx.ModulePath = "github.com/goreleaser/goreleaser"
+	ctx.ModulePath = "github.com/triarius/goreleaser"
 	ctx.Env = map[string]string{
 		"FOO":       "bar",
 		"MULTILINE": "something with\nmultiple lines\nremove this\nto test things",
@@ -55,7 +55,7 @@ func TestWithArtifact(t *testing.T) {
 		"shortcommit":                      "{{.ShortCommit}}",
 		"binary":                           "{{.Binary}}",
 		"proj":                             "{{.ProjectName}}",
-		"github.com/goreleaser/goreleaser": "{{ .ModulePath }}",
+		"github.com/triarius/goreleaser": "{{ .ModulePath }}",
 		"v2.0.0":                           "{{.Tag | incmajor }}",
 		"2.0.0":                            "{{.Version | incmajor }}",
 		"v1.3.0":                           "{{.Tag | incminor }}",

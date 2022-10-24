@@ -6,8 +6,8 @@ import (
 
 	"github.com/caarlos0/ctrlc"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/pipe/defaults"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/pipe/defaults"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/spf13/cobra"
 )
 

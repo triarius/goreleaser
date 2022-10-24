@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"text/template"
 
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 const bodyTemplateText = `{{ with .Header }}{{ . }}{{ "\n" }}{{ end }}

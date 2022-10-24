@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/pkg/build"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Template holds data that can be applied to a template string.

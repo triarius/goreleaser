@@ -9,7 +9,7 @@ import (
 
 	"github.com/caarlos0/log"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/goreleaser/goreleaser/internal/golden"
+	"github.com/triarius/goreleaser/internal/golden"
 	"github.com/muesli/termenv"
 	"github.com/stretchr/testify/require"
 )

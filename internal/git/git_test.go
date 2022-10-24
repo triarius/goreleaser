@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/internal/git"
+	"github.com/triarius/goreleaser/internal/testlib"
 	"github.com/stretchr/testify/require"
 )
 

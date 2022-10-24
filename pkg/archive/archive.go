@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/goreleaser/goreleaser/pkg/archive/gzip"
-	"github.com/goreleaser/goreleaser/pkg/archive/tar"
-	"github.com/goreleaser/goreleaser/pkg/archive/targz"
-	"github.com/goreleaser/goreleaser/pkg/archive/tarxz"
-	"github.com/goreleaser/goreleaser/pkg/archive/zip"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/archive/gzip"
+	"github.com/triarius/goreleaser/pkg/archive/tar"
+	"github.com/triarius/goreleaser/pkg/archive/targz"
+	"github.com/triarius/goreleaser/pkg/archive/tarxz"
+	"github.com/triarius/goreleaser/pkg/archive/zip"
+	"github.com/triarius/goreleaser/pkg/config"
 )
 
 // Archive represents a compression archive files from disk can be written to.

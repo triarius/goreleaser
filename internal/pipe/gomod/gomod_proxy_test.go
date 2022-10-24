@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 
@@ -35,7 +35,7 @@ func TestGoModProxy(t *testing.T) {
 		})
 		ctx.Git.CurrentTag = "v0.161.1"
 
-		ctx.ModulePath = "github.com/goreleaser/goreleaser"
+		ctx.ModulePath = "github.com/triarius/goreleaser"
 
 		fakeGoModAndSum(t, ctx.ModulePath)
 		require.NoError(t, ProxyPipe{}.Run(ctx))
@@ -135,7 +135,7 @@ func TestGoModProxy(t *testing.T) {
 				})
 				ctx.Git.CurrentTag = "v0.161.1"
 
-				ctx.ModulePath = "github.com/goreleaser/goreleaser"
+				ctx.ModulePath = "github.com/triarius/goreleaser"
 
 				fakeGoModAndSum(t, ctx.ModulePath)
 				require.NoError(t, ProxyPipe{}.Run(ctx)) // should succeed at first
@@ -167,7 +167,7 @@ func TestGoModProxy(t *testing.T) {
 		})
 		ctx.Git.CurrentTag = "v0.161.1"
 
-		ctx.ModulePath = "github.com/goreleaser/goreleaser"
+		ctx.ModulePath = "github.com/triarius/goreleaser"
 
 		fakeGoModAndSum(t, ctx.ModulePath)
 		require.NoError(t, ProxyPipe{}.Run(ctx))
@@ -194,7 +194,7 @@ func TestSkip(t *testing.T) {
 				Proxy: true,
 			},
 		})
-		ctx.ModulePath = "github.com/goreleaser/goreleaser"
+		ctx.ModulePath = "github.com/triarius/goreleaser"
 		ctx.Snapshot = true
 		require.True(t, ProxyPipe{}.Skip(ctx))
 	})
@@ -215,7 +215,7 @@ func TestSkip(t *testing.T) {
 				Proxy: true,
 			},
 		})
-		ctx.ModulePath = "github.com/goreleaser/goreleaser"
+		ctx.ModulePath = "github.com/triarius/goreleaser"
 		require.False(t, ProxyPipe{}.Skip(ctx))
 	})
 }

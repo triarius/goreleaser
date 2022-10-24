@@ -1,4 +1,4 @@
-module github.com/goreleaser/goreleaser
+module github.com/triarius/goreleaser
 
 go 1.19
 

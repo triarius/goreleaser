@@ -9,7 +9,7 @@ import (
 
 	"github.com/caarlos0/log"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 const baseURL = "https://goreleaser.com/deprecations#"

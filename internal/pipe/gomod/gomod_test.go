@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 
@@ -15,7 +15,7 @@ func TestRun(t *testing.T) {
 	ctx := context.New(config.Project{})
 	require.NoError(t, Pipe{}.Default(ctx))
 	require.NoError(t, Pipe{}.Run(ctx))
-	require.Equal(t, "github.com/goreleaser/goreleaser", ctx.ModulePath)
+	require.Equal(t, "github.com/triarius/goreleaser", ctx.ModulePath)
 }
 
 func TestRunCustomMod(t *testing.T) {
@@ -26,7 +26,7 @@ func TestRunCustomMod(t *testing.T) {
 	})
 	require.NoError(t, Pipe{}.Default(ctx))
 	require.NoError(t, Pipe{}.Run(ctx))
-	require.Equal(t, "github.com/goreleaser/goreleaser", ctx.ModulePath)
+	require.Equal(t, "github.com/triarius/goreleaser", ctx.ModulePath)
 }
 
 func TestCustomEnv(t *testing.T) {

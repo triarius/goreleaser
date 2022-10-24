@@ -12,10 +12,10 @@ import (
 
 	"github.com/caarlos0/log"
 	"github.com/google/go-github/v48/github"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"golang.org/x/oauth2"
 )
 

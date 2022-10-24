@@ -8,13 +8,13 @@ import (
 	"testing"
 
 	"github.com/charmbracelet/keygen"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/golden"
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/client"
+	"github.com/triarius/goreleaser/internal/git"
+	"github.com/triarius/goreleaser/internal/golden"
+	"github.com/triarius/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 

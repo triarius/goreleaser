@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/git"
+	"github.com/triarius/goreleaser/internal/pipe"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Pipe that sets up git state.

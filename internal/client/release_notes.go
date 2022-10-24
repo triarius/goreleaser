@@ -1,6 +1,6 @@
 package client
 
-import "github.com/goreleaser/goreleaser/pkg/config"
+import "github.com/triarius/goreleaser/pkg/config"
 
 func getReleaseNotes(existing, current string, mode config.ReleaseNotesMode) string {
 	switch mode {

@@ -3,7 +3,7 @@ package testlib
 import (
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/pipe"
+	"github.com/triarius/goreleaser/internal/pipe"
 )
 
 func TestAssertSkipped(t *testing.T) {

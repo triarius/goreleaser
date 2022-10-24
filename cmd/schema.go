@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/config"
 	"github.com/invopop/jsonschema"
 	"github.com/spf13/cobra"
 )

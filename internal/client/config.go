@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/config"
 )
 
 func RepoFromRef(ref config.RepoRef) Repo {

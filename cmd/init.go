@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/static"
+	"github.com/triarius/goreleaser/internal/static"
 	"github.com/spf13/cobra"
 )
 

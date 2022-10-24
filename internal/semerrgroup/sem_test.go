@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goreleaser/goreleaser/internal/pipe"
+	"github.com/triarius/goreleaser/internal/pipe"
 	"github.com/stretchr/testify/require"
 )
 

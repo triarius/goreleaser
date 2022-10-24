@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/git"
+	"github.com/triarius/goreleaser/internal/git"
 	"github.com/stretchr/testify/require"
 )
 

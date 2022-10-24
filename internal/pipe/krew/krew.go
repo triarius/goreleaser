@@ -14,14 +14,14 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/commitauthor"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/internal/yaml"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/client"
+	"github.com/triarius/goreleaser/internal/commitauthor"
+	"github.com/triarius/goreleaser/internal/pipe"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/internal/yaml"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 const (

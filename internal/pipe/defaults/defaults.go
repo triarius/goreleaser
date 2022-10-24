@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/middleware/errhandler"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
-	"github.com/goreleaser/goreleaser/pkg/defaults"
+	"github.com/triarius/goreleaser/internal/client"
+	"github.com/triarius/goreleaser/internal/middleware/errhandler"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/pkg/defaults"
 )
 
 // Pipe that sets the defaults.

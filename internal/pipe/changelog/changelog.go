@@ -11,10 +11,10 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/client"
+	"github.com/triarius/goreleaser/internal/git"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // ErrInvalidSortDirection happens when the sort order is invalid.

@@ -10,9 +10,9 @@ import (
 	"text/template"
 
 	"code.gitea.io/sdk/gitea"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

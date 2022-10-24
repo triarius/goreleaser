@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/golden"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/internal/golden"
+	"github.com/triarius/goreleaser/pkg/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"

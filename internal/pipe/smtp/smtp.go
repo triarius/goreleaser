@@ -6,8 +6,8 @@ import (
 
 	"github.com/caarlos0/env/v6"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/context"
 	gomail "gopkg.in/mail.v2"
 )
 

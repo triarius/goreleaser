@@ -6,8 +6,8 @@ import (
 
 	"github.com/caarlos0/log"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/goreleaser/goreleaser/internal/middleware"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/middleware"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 var (

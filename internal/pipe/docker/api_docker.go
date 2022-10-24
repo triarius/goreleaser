@@ -3,7 +3,7 @@ package docker
 import (
 	"fmt"
 
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 func init() {

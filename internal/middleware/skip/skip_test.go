@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 

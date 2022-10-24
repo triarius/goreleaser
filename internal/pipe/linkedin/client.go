@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/pkg/context"
 	"golang.org/x/oauth2"
 )
 

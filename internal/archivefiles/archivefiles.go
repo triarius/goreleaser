@@ -8,8 +8,8 @@ import (
 
 	"github.com/caarlos0/log"
 	"github.com/goreleaser/fileglob"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/config"
 )
 
 // Eval evaluates the given list of files to their final form.

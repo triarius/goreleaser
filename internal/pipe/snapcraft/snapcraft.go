@@ -12,15 +12,15 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/gio"
-	"github.com/goreleaser/goreleaser/internal/ids"
-	"github.com/goreleaser/goreleaser/internal/pipe"
-	"github.com/goreleaser/goreleaser/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/internal/yaml"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/gio"
+	"github.com/triarius/goreleaser/internal/ids"
+	"github.com/triarius/goreleaser/internal/pipe"
+	"github.com/triarius/goreleaser/internal/semerrgroup"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/internal/yaml"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 const releasesExtra = "releases"
@@ -316,7 +316,7 @@ func create(ctx *context.Context, snap config.Snapcraft, arch string, binaries [
 		}
 
 		// TODO: test that the correct binary is used in Command
-		// See https://github.com/goreleaser/goreleaser/pull/1449
+		// See https://github.com/triarius/goreleaser/pull/1449
 		appMetadata := AppMetadata{
 			Command: strings.TrimSpace(strings.Join([]string{
 				command,

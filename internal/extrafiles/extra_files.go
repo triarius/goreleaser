@@ -7,9 +7,9 @@ import (
 
 	"github.com/caarlos0/log"
 	"github.com/goreleaser/fileglob"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Find resolves extra files globs et al into a map of names/paths or an error.

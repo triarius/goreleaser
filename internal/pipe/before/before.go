@@ -9,10 +9,10 @@ import (
 
 	"github.com/caarlos0/go-shellwords"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/gio"
-	"github.com/goreleaser/goreleaser/internal/logext"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/gio"
+	"github.com/triarius/goreleaser/internal/logext"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Pipe is a global hook pipe.

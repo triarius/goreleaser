@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/client"
-	"github.com/goreleaser/goreleaser/internal/testlib"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/client"
+	"github.com/triarius/goreleaser/internal/testlib"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 
@@ -351,7 +351,7 @@ func TestDefault(t *testing.T) {
 	require.NoError(t, Pipe{}.Default(ctx))
 	require.Equal(t, "goreleaser", ctx.Config.Release.GitHub.Name)
 	require.Equal(t, "goreleaser", ctx.Config.Release.GitHub.Owner)
-	require.Equal(t, "https://github.com/goreleaser/goreleaser/releases/tag/v1.0.0", ctx.ReleaseURL)
+	require.Equal(t, "https://github.com/triarius/goreleaser/releases/tag/v1.0.0", ctx.ReleaseURL)
 }
 
 func TestDefaultInvalidURL(t *testing.T) {

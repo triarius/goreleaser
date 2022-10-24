@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	"github.com/triarius/goreleaser/pkg/context"
 )
 
 // Pipe for checksums.

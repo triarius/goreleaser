@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/builders/buildtarget"
-	"github.com/goreleaser/goreleaser/internal/tmpl"
-	api "github.com/goreleaser/goreleaser/pkg/build"
-	"github.com/goreleaser/goreleaser/pkg/config"
-	"github.com/goreleaser/goreleaser/pkg/context"
+	"github.com/triarius/goreleaser/internal/artifact"
+	"github.com/triarius/goreleaser/internal/builders/buildtarget"
+	"github.com/triarius/goreleaser/internal/tmpl"
+	api "github.com/triarius/goreleaser/pkg/build"
+	"github.com/triarius/goreleaser/pkg/config"
+	"github.com/triarius/goreleaser/pkg/context"
 	"github.com/imdario/mergo"
 )
 
