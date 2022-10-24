@@ -252,7 +252,9 @@ func skip(ctx *context.Context, archive config.Archive, binaries []*artifact.Art
 			WithField("name", finalName).
 			Info("naming binary")
 
-		if err = os.Link(binary.Path, finalName); err != nil {
+		finalPath := filepath.Join(ctx.Config.Dist, finalName)
+
+		if err = os.Link(binary.Path, finalPath); err != nil {
 			return err
 		}
 
